@@ -1,0 +1,41 @@
+[33mcommit e3145160095c77670a03104a206d811deb2b3425[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: David Ramos <ramours@gmail.com>
+Date:   Wed Nov 8 21:10:00 2023 +0100
+
+    cleanup
+
+[33mcommit 2275eff5fca2883c4eb102ee5edc74fb1f535aa5[m
+Author: David Ramos <ramours@gmail.com>
+Date:   Wed Nov 8 21:08:58 2023 +0100
+
+    cleanup
+
+[33mcommit 10ebe703b3f99a5cb7d233d2491592b9ab48473d[m
+Author: David Ramos <ramours@gmail.com>
+Date:   Wed Nov 8 21:02:57 2023 +0100
+
+    added playercontroller and input contexts
+
+[33mcommit 120958f60a040f1c5b7147968ae1710d39745b9d[m
+Author: David Ramos <ramours@gmail.com>
+Date:   Wed Nov 8 20:22:55 2023 +0100
+
+    added goblin classes
+
+[33mcommit 1d5129bfae5cdca6eb5b9df6b691449cffa43fec[m
+Author: David Ramos <ramours@gmail.com>
+Date:   Wed Nov 8 18:45:22 2023 +0100
+
+    Base character class
+
+[33mcommit 11411eca15e7325ee447180b7837327f476fb294[m
+Author: David Ramos <ramours@gmail.com>
+Date:   Wed Nov 8 18:32:15 2023 +0100
+
+    fix gitignore file
+
+[33mcommit 6ff73d34e9c05f8e78a2f5d5cc0e428fbf897633[m
+Author: David Ramos <ramours@gmail.com>
+Date:   Wed Nov 8 17:50:59 2023 +0100
+
+    Initial Project Files
