@@ -25,7 +25,7 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
 	virtual void PlayerTick(float DeltaTime) override;
-
+	
 private:
 	UPROPERTY(EditAnywhere, Category="Input")
 	TObjectPtr<class UInputMappingContext> AuraContext;
