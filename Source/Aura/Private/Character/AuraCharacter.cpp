@@ -2,8 +2,10 @@
 
 
 #include "Character/AuraCharacter.h"
+#include "UI/HUD/AuraHUD.h"
 
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
 #include "Player/AuraPlayerState.h"
 
 AAuraCharacter::AAuraCharacter()
@@ -42,5 +44,13 @@ void AAuraCharacter::InitializeAbilityAndAttributeComponents()
 		AttributeSet = AuraPlayerState->GetAttributeSet();
 		AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
 		AbilitySystemComponent->InitAbilityActorInfo(AuraPlayerState, this);
+
+		if (APlayerController* PC = UGameplayStatics::GetPlayerController(this, 0))
+		{
+			if (AAuraHUD* CurrentHud = Cast<AAuraHUD>(PC->GetHUD()))
+			{
+				CurrentHud->InitOverlay(PC, AuraPlayerState, AbilitySystemComponent, AttributeSet);
+			}
+		}
 	}
 }
